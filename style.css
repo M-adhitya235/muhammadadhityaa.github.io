@@ -1,0 +1,140 @@
+body  {
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   background-image: url(galaxy.jpg);
+}
+
+/*Ini Bagian navigation bar*/
+.navi {
+  background-color: rgba(52, 49, 68, 0.63);
+  overflow: hidden;
+}
+
+.navi a {
+  float: left;
+  display: block;
+  color: rgb(245, 245, 245);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navi a:hover {
+  background-color: rgba(104, 104, 233, 0.658);
+  color: black;
+}
+
+/*planet & Planett*/
+.konten {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.planet-kolom, .planet-kolom2{
+  flex-basis: 48%;
+}
+
+.planet {
+  border: 2px solid lightgray;
+  padding: 13%;
+  margin-bottom: 15px;
+}
+
+.planet p {
+  margin-bottom : 10px;
+}
+.planet a {
+  color : white;
+  text-decoration: none;
+}
+
+.planet h2:visited {
+  color: black; 
+}
+
+.planet h2:hover {
+  color: rgb(247, 231, 142); 
+}
+
+.planet h2{
+  margin-top: 10px;
+  margin-right: 0px;
+  color : white;
+}
+
+.planett{
+  border: 2px solid lightgray;
+  padding: 13%;
+  margin-bottom: 15px;
+}
+
+.planett h2 {
+  margin-top: 10px;
+}
+
+.planett p {
+  margin-bottom : 10px;
+}
+
+.planett a {
+  color : white;
+  text-decoration: none;
+}
+
+.planett h2:visited {
+  color: black; 
+}
+
+.planett h2:hover {
+  color: rgb(247, 231, 142); 
+}
+
+
+.small {
+  display: block;
+  color: white;
+  background-color: rgba(217, 226, 135, 0.2);
+  border: visible;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+.small:hover {
+  background-color: #436B95;
+}
+
+.big {
+  display: block;
+  color: rgb(238, 233, 233);
+  background-color: rgb(204, 250, 182, 0.2);
+  border: visible;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.big:hover {
+  background-color: #436B95 ;
+
+}
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(130, 136, 127, 0.2);
+  color: white;
+  margin : 0px;
+  margin-top : 70px;
+}
+
+
+
+
+
+
+

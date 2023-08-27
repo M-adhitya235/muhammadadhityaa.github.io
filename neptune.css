@@ -1,0 +1,26 @@
+body {
+    background-color: #3876b1; 
+}
+
+.neptunus {
+    background-color: rgb(132, 183, 218);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.neptunus h1{
+    color : rgb(55, 86, 133) ;
+}
+
+.neptunus p{
+    color : rgb(55, 86, 133) ;
+    font-size: 18px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
